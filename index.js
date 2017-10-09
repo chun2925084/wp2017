@@ -16,7 +16,7 @@ function type_write(){
     count++;  
     document.getElementById('reply_comment').innerHTML=content.substring(0,count);
 
-    setTimeout("type_write()",5);
+    setTimeout("type_write()",100);
   }
 }
 
