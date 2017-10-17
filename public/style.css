@@ -1,0 +1,76 @@
+
+
+body{
+  background-image: url("https://i.imgur.com/tIry0nt.png");
+
+}
+
+body {
+margin: 0;
+}
+
+#festival{
+width:10%;
+top:100px;
+height:2;
+}
+
+p.content {
+color: #466400;
+       font-variant: small-caps;
+}
+
+.intro{
+  font-family: '宋体',sans-serif;
+}
+
+
+
+ul {
+  list-style-type: none;
+margin: 0;
+padding: 0;
+width: 25%;
+       background-color: rgba(20, 22, 26, 0);;
+position: fixed;
+height: 100%;
+top: 300px;
+left:-400px;
+overflow: auto;
+}
+
+h2{
+color: #666666;
+}
+
+li a {
+display: block;
+color: #000;
+padding: 8px 16px;
+         text-decoration: none;
+         font-size: 20;
+}
+
+li a.active {
+  /* background-color: #4CAF50; */
+color: #000;
+       font-variant:small-caps;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+color: white;
+}
+
+h3.typing {
+color: rgba(100, 40, 0, 0.8);
+       font-variant: historical-ligatures;
+}
+
+#main_content{
+position: relative;
+opacity: 0;
+}
+
+
+
